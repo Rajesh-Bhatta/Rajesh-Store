@@ -1,71 +1,103 @@
-# Interactive Sales Data Analysis Dashboard
+# 📊 Rajesh Store Sales Dashboard (Power BI Project)
 
+## 📌 Project Overview
 
-## Overview
-This interactive dashboard in Power BI is designed to track and analyze online sales data effectively. It provides users with a comprehensive view of sales performance and enables them to drill down into specific parameters for detailed analysis. The dashboard utilizes various visualization types and customization options to enhance data interpretation and decision-making.
+This project presents an interactive Sales Analytics Dashboard built using Microsoft Power BI.  
+The dashboard analyzes sales performance, profit trends, customer segments, and regional insights for Rajesh Store.
 
+The objective of this project is to transform raw transactional data into actionable business insights using data visualization and DAX.
 
-## Features
+---
 
-1. **Drill-down Capability:** Users can drill down into specific parameters to gain deeper insights into sales data. Complex parameters are utilized to enable granular analysis within the dashboard.
+## 📸 Dashboard Preview
 
-2. **Customization using Filters and Slicers:** The dashboard offers customization options through filters and slicers, allowing users to tailor the data view according to their requirements. This enhances flexibility and usability.
+![Sales Dashboard](images/dashboard.png)
 
-3. **Data Manipulation:** Connections are established, new tables are joined, and calculations are performed to manipulate data effectively. User-driven parameters are incorporated to facilitate dynamic visualizations.
+---
 
-4. **Customized Visualizations:** Various types of customized visualizations are available, including:
-   - Bar Chart
-   - Pie Chart
-   - Donut Chart
-   - Clustered Bar Chart
-   - Scatter Chart
-   - Line Chart
-   - Area Chart
-   - Map
-   - Slicers, etc.
+## 🛠 Tools & Technologies Used
 
-5. **User Guide:**
-   - **Drill-down:** Navigate through different levels of data by clicking on relevant parameters or using dropdown menus.
-   - **Filters and Slicers:** Use filters and slicers to refine data views based on specific criteria.
-   - **Data Manipulation:** Explore different data manipulations and calculations to derive meaningful insights.
-   - **Visualizations:** Interact with various visualization types to analyze sales performance from different perspectives.
+- Microsoft Power BI
+- Power Query (Data Cleaning & Transformation)
+- DAX (Data Analysis Expressions)
+- CSV Datasets
 
+---
 
-## Instructions for Use
+## 📂 Dataset Information
 
-1. **Accessing the Dashboard:**
-   - Download the .pbix file from the repository .
-   - Open the file in Power BI Desktop or upload it to Power BI Service.
-   
-2. **Navigation:**
-   - Use the provided navigation buttons or interact with slicers to navigate between different sections or levels of data.
+The project uses two datasets:
 
-3. **Customization:**
-   - Utilize filters, slicers, and interactions to customize the data view according to specific parameters or criteria.
+- `Orders.csv` – Contains order-level transaction details
+- `Details.csv` – Contains product and category information
 
-4. **Interactivity:**
-   - Click on data points within visualizations to interactively filter and drill down into relevant information.
+---
 
-5. **Exploration:**
-   - Explore different visualization types and data manipulations to gain insights into sales performance.
+## 📈 Key Insights Generated
 
+- 💰 Total Sales and Profit Analysis
+- 📊 Monthly Sales Trend
+- 🛍 Category-wise Performance
+- 🌍 Region-wise Revenue Distribution
+- 🧑‍💼 Customer Segment Analysis
+- 📦 Top Performing Products
 
+---
 
-## Notes
+## 📊 Key KPIs Displayed
 
-- Ensure that the underlying data source is regularly updated to reflect the latest sales information.
-- For any technical issues or queries, please consult to the administrator.
+- Total Revenue
+- Total Profit
+- Profit Margin
+- Total Orders
+- Category Contribution %
 
+---
 
+## 🚀 Business Impact
 
-## Feedback
+- Identified high-performing categories and regions
+- Highlighted low-profit segments for optimization
+- Provided data-driven decision-making support
 
-I welcome your feedback and suggestions for improving this dashboard. Please feel free to share your thoughts and recommendations with me.
+---
 
+## 📂 Repository Structure
 
-## Author
+```
+Rajesh-Store/
+│
+├── images/
+│   └── dashboard.png
+├── Orders.csv
+├── Details.csv
+├── Rajesh_Store.pbix
+└── README.md
+```
 
-Rajesh Kumar Bhatta
+---
 
+## ▶ How to Use
 
+1. Download the `.pbix` file
+2. Open using Microsoft Power BI Desktop
+3. Refresh dataset if required
+4. Explore interactive visualizations
 
+---
+
+## 🎯 Skills Demonstrated
+
+- Data Cleaning & Transformation
+- Data Modeling
+- DAX Calculations
+- Business Intelligence
+- Dashboard Design
+- Analytical Thinking
+
+---
+
+## 👨‍💻 Author
+
+Rajesh Kumar  
+Aspiring Data Analyst | ML Enthusiast | SDE Aspirant
